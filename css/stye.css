@@ -1,0 +1,191 @@
+/* configuração da fonte: 
+font-family: 'Poppins', sans-serif;
+
+cores: Blue: #6C63FF
+Black: #000000*/
+
+/*Resetando as configurações basicas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  /*TIRAR SUBLINHADOS E OUTRAS "DECORAÇÕES" DOS TEXTO*/
+}
+
+/* a{
+    color: black;
+} */
+
+/*ESTILIZAÇÃO BODY*/
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    
+}
+
+/*ESTILIZAÇÃO HEADER*/
+.navbar{
+    border-top: 30px;
+    padding: 30px 40px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: baseline;
+}
+
+/*NAV BAR - HEADER*/
+.navbar h3{
+    color: black;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+span{
+    color: #6C63FF;
+}
+
+.navbartop{
+    display: inline;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+.navbartop a{
+    color: black;
+    padding: 0 5px;
+}
+
+/*CONTEÚDO - BANNER */
+section.banner{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.imagemtopo{
+    max-width: 300px;
+    height: auto;
+    margin: 0 20px 0 0;
+}
+
+.textotitulo{
+    margin: 0 0 0 20px;
+}
+
+.textotitulo h2{
+    width: 250px;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*CONTEÚDO - FORMULÁRIO*/
+.titleform{
+    font-size: 25pt;
+    font-weight: bold;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+
+.formbox{
+    margin: 0 20px 0 0;
+}
+
+.formquestion{
+    border: 1px 1px;
+    border-radius: 8px;
+    border-color: #6C63FF;
+    box-shadow: 0px 2px 5px #6C63FF;        /* offset-x | offset-y | blur-radius | spread-radius | color */
+    width: 250px;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    margin: 8px 0;
+
+}
+
+div.caixalateral{
+    border: 1px;
+    /* border-radius: 2px 2px; */
+    border-width: 2%;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 2px 5px 0 black;
+    width: 200px;
+    margin: 0 0 0 20px;
+
+}
+
+div.caixalateral p{
+    padding: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+
+}
+
+.submit{
+    display: block;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: #6C63FF;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 100px;
+}
+
+/*ESTILIZAÇÃO DO FOOTER*/
+footer{
+    background-color: #6C63FF;
+    border: 35px auto;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footerlist{            /*ESTILIZAÇÃO UL FOOTER*/
+    list-style: none;
+}
+
+.linkfooter{    /*ESTILIZAÇÃO LINKS FOOTER*/
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+.logofooter{    /*ESTILIZAÇÃO H2 FOOTER*/
+    color: black;
+    font-size: 20pt;
+    font-weight: bolder;
+    padding: 30px 0 5px 0;
+}
+
+

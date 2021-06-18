@@ -1,0 +1,15 @@
+	Liks utilizados na pesquisa para a produção desse projeto.
+
+   • Aligning Items in a Flex Container - https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+
+   • CSS Grid Layout e Flexbox - Quando Utilizar - https://www.youtube.com/watch?v=x-4z_u8LcGc
+
+   • BOX MODEL - https://www.w3schools.com/css/css_boxmodel.asp
+
+   • Formulário HTML - https://www.homehost.com.br/blog/tutoriais/formulario-html/#:~:text=O%20formul%C3%A1rio%20HTML%20%C3%A9%20representado,method%20e%20o%20atributo%20action.
+
+   • HTML INPUTS TYPES - https://www.w3schools.com/html/html_form_input_types.asp
+
+   • BUTTON - https://www.w3schools.com/tags/tag_button.asp
+
+   • 
